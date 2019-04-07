@@ -1,3 +1,0 @@
-composer update
-git add composer.lock
-git commit
