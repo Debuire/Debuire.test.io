@@ -41,7 +41,9 @@ if( $file != false )
 
             }
             else{
-                $line = strstr($string,$nameFilter);
+               $var = strstr($string,$namefilter);
+                if($var!=null){
+                    $line=$string;
             }
 
         }
